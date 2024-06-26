@@ -33,8 +33,7 @@ function App() {
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >
-        <Navbar />
-
+        <Navbar /> 
         <Body>
           <HeroSection />
           <Wrapper>

@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+# Portfolio
+![Preview Image](./preview.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🔮 Features
+-   📝 Directly see and download my resume.
+-   🧑‍💻 Anyone can check my skills, experience, projects, eduction, gtihub profile.
+-   🚀 filter projects on the basis of tech stacks.
+-   📬 Directly send feedback without any login
+-   🌍 directly switch to section using navigation bar buttons.
 
-## Available Scripts
+## 🚀 Live Preview
 
-In the project directory, you can run:
+You can view the live preview of this project [here](https://portfolio-ten-vert-47.vercel.app/). 
 
-### `npm start`
+## 💻 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![ExpressJS](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![Socket io](https://img.shields.io/badge/Socket.io-ffffff?style=for-the-badge)
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<details>
+    <summary>
+        <h2>📂 Folder Structure</h2>
+    </summary>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+client/
+├── public/
+│   ├── favicon/ 
+|   ├──index.html
+│   │   └── ...
+├── src/
+│   ├── components/
+│   │   ├── About/
+│   │   │   ├── AboutStyle.js
+│   │   │   └── index.js
+│   │   ├── cards/
+│   │   │   ├── EducationCard.jsx
+│   │   │   ├── ExperienceCard.jsx
+│   │   │   └── ProjectCards.jsx
+│   │   ├── contact/
+│   │   │   └── index.js
+│   │   ├── Darkmode/
+│   │   │   └── ThemeMode.js
+│   │   ├── Education/
+│   │   │   └── index.js
+│   │   ├── Experience/
+│   │   │   └── index.js
+│   │   ├── Footer/
+│   │   │   └── index.js
+│   │   ├── HeroBgAnimation/
+|   |   |   ├── index.js
+│   │   │   └── HeroBgAnimationStyle.js
+│   │   ├── HeroSection/
+|   |   |   ├── index.js
+│   │   │   └── HeroStyle.js
+│   │   ├── Navbar/
+|   |   |   ├── index.js
+│   │   │   └── NavbarStyledComponent.js
+│   │   ├── ProjectDetails/
+│   │   │   └── index.js
+│   │   ├── Projects/
+|   |   |   ├── index.js
+│   │   │   └── ProjectStyle.js
+│   │   ├── Skills/
+|   |   |   ├── index.js
+│   │   │   ├── skillProgress.css
+│   │   │   └── skillProgress.js
+│   ├── data/
+│   │   └── data.jsx
+│   ├── images/
+│   │   └── heroImage.jpg
+│   ├── pages/
+│   │   ├── EditorPage.jsx
+│   │   └── HomePage.jsx
+│   ├── themes/
+│   │   └── default.js
+│   ├── utils/
+│   │   └── themes.js
+│   ├── App.css
+│   ├── App.js
+│   └── index.js
+├── .env
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── preview.png
+└── tailwind.config.js
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+README.md
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## ⚙️ Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Fork this repository:** Click the Fork button located in the top-right corner of this page to fork the repository.
+2. **Clone the repository:**
+    ```bash
+    git clone https://github.com/<your-username>/Portfolio.git
+    ```
+3. **Install dependencies:**
+   Navigate to the frontend and backend directories separately and run:
+    ```bash
+     npm install
+    ```
+4. **Start the frontend and backend servers:**  
+    ```bash
+    cd client
+    npm run start
+    ```
+5. **Access the application:**
+   Open a browser and enter the following URL:
+    ```bash
+    http://localhost:3000/
