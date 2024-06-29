@@ -97,7 +97,7 @@ const index = () => {
                                 <TimelineSeparator>
                                     <TimelineDot variant="outlined"
                                         style={{ background: ` ${({ theme }) => theme.primary}` }} />
-                                    {index !== experiences.length && <TimelineConnector style={{ background: `${({ theme }) => theme.primary}` }} />}
+                                    {index !== education.length-1 && <TimelineConnector style={{ background: `${({ theme }) => theme.primary}` }} />}
                                 </TimelineSeparator>
                             </TimelineItem>
                         ))}

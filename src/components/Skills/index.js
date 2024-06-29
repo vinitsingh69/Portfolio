@@ -34,7 +34,7 @@ font-weight: 600;
 margin-top: 20px;
 color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
-margin-top: 12px;
+margin-top: 20px;
       font-size: 32px;
   }
 `;
@@ -57,7 +57,6 @@ const SkillsContainer = styled.div`
   margin-top: 30px;
   gap: 30px;
   justify-content: center;
-  flex-item
 `
 
 const SkillP = styled.div`
@@ -71,7 +70,7 @@ const Skill = styled.div`
   width: 100%;
   max-width: 500px;
   background: ${({ theme }) => theme.card};
-  border: 0.1px solid ${({ theme }) => theme.primary};
+  border: 0.1px solid  ${({ theme }) => theme.primary};
   border-radius: 16px;
   padding: 18px 36px;
   @media (max-width: 768px) {
@@ -137,7 +136,7 @@ const Skills = () => {
         <Title>Skills</Title>
         <Desc>Here are some of my skills on which I have been working on for the past 3 years.
         </Desc>
-        <SkillsContainer >
+        <SkillsContainer > 
           {myskills.map((skill) => (
             <Skill>
               <SkillTitle>{skill.title}</SkillTitle>
@@ -158,7 +157,7 @@ const Skills = () => {
       <Title>Skills Knowledge</Title>
       <Desc>Here is my skills percentage.</Desc>
       <SkillP>
-        {myskills.map((skill) => (
+      {myskills.map((skill) => (
           <SkillProgress name={skill.title} percentage={skill.percentage}>
           </SkillProgress>
           

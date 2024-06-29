@@ -73,7 +73,7 @@ const TimelineSection = styled.div`
 `;
 
 
-
+ 
 const index = () => {
     return (
         <Container id="experience">
@@ -83,11 +83,11 @@ const index = () => {
                     My work experience as a software engineer and working on different companies and projects.
                 </Desc>
                 <TimelineSection>
-                    <Timeline>
+                <Timeline>
                         {experiences.map((experience,index) => (
                             <TimelineItem>
                                 <TimelineSeparator>
-                                    <TimelineDot variant="outlined"/>
+                                    <TimelineDot variant="outlined" />
                                     {index !== experiences.length - 1 && <TimelineConnector style={{ background: `${({ theme }) => theme.primary}` }} />}
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>

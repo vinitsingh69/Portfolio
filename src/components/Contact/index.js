@@ -1,6 +1,7 @@
 import React from 'react'
-import styled from 'styled-components'
 import { useRef } from 'react';
+import styled from 'styled-components'
+import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { Snackbar } from '@mui/material';
 
@@ -112,11 +113,7 @@ const ContactButton = styled.input`
     background: linear-gradient(225deg, ${({ theme }) => theme.primary} 0%, ${({ theme }) => theme.primary+90} 100%);
     background: -moz-linear-gradient(225deg, ${({ theme }) => theme.primary} 0%, ${({ theme }) => theme.primary+90} 100%);
     background: -webkit-linear-gradient(225deg, ${({ theme }) => theme.primary} 0%, ${({ theme }) => theme.primary+90} 100%);
-
-  // background: hsla(271, 100%, 50%, 1);
-  // background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  // background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  // background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+ 
 
 
   padding: 13px 16px;
@@ -133,7 +130,7 @@ const ContactButton = styled.input`
 const Contact = () => {
 
   //hooks
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
   const form = useRef();
 
   const handleSubmit = (e) => {
@@ -141,6 +138,7 @@ const Contact = () => {
     emailjs.sendForm('service_ydkdj8h', 'template_9a9yv8c', form.current, 'Mg3yBJgUzwFN__KQo')
       .then((result) => {
         setOpen(true);
+        console.log(result.text);
         form.current.reset();
       }, (error) => {
         console.log(error.text);
@@ -150,7 +148,7 @@ const Contact = () => {
 
 
   return (
-    <Container>
+    <Container id='contact'>
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
@@ -165,7 +163,7 @@ const Contact = () => {
         <Snackbar
           open={open}
           autoHideDuration={6000}
-          onClose={()=>setOpen(false)}
+          onClose={()=>setOpen(false)} 
           message="Email sent successfully!"
           severity="success"
         />

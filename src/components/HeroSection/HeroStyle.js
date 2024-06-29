@@ -1,9 +1,8 @@
 import styled from "styled-components";
-import _default from "../../themes/default";
 
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
-  display: flex;
+  display: flex;  
   justify-content: center;
   position: relative;
   padding: 80px 30px;
@@ -14,8 +13,7 @@ export const HeroContainer = styled.div`
     padding: 32px 16px;
   }
   z-index: 1;
-
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 95%, 0 100%);
 `;
 
 export const HeroBg = styled.div`
@@ -99,7 +97,7 @@ export const Img = styled.img`
   max-width: 400px;
   max-height: 400px;
   border-radius: 50%;
-  border: 2px solid ${({ theme }) => theme.primary};
+  border: 3px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -154,7 +152,7 @@ export const SubTitle = styled.div`
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 42px;
-  color: ${({ theme }) => theme.text_primary + 95};
+  color: ${({ theme }) => theme.text_primary+90 };
 
   @media (max-width: 960px) {
     text-align: center;
@@ -189,25 +187,15 @@ export const ResumeButton = styled.a`
     background: -webkit-linear-gradient(225deg, ${({ theme }) => theme.primary} 0%, ${({ theme }) => theme.primary+90} 100%);
 
 
-    // hsla(271, 100%, 50%, 1)
-    // background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    // background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    // background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-
-
-    box-shadow:  20px 20px 60px #1F2634,
-    -20px -20px 60px #1F2634;
+ 
     &:hover {
         transform: scale(1.05);
-    transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
+        transition: all 0.4s ease-in-out; 
     }    
     
     
-    @media (max-width: 640px) {
+      @media (max-width: 640px) {
         padding: 12px 0;
         font-size: 18px;
     } 
-
 `;

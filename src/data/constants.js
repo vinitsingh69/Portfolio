@@ -10,8 +10,7 @@ export const Bio = {
     description:
       "I'm here to turn dreams into code, weaving innovation into every project. With boundless passion and relentless optimism, I'm on a mission to sculpt a future where creativity knows no bounds. Let's embark on this exhilarating journey together, where challenges fuel our drive, and solutions spark inspiration.",
     github: "https://github.com/vinitsingh69",
-    resume:
-      "https://drive.google.com/file/d/192zrp19xs-4Hyjw6fA9dbsNi2UfXnCil/view",
+    resume: "https://drive.google.com/file/d/192zrp19xs-4Hyjw6fA9dbsNi2UfXnCil/view",
     linkedin: "https://www.linkedin.com/in/vinit-kumar-98b542226/", 
     insta: "https://www.instagram.com/vinitsinghofficial/",
     twitter: "https://twitter.com/",
@@ -166,7 +165,7 @@ export const Bio = {
         "CSS",
         "JavaScript",
       ],
-      doc: "https://media.licdn.com/dms/image/D4D22AQHPMSQyQkLknA/feedshare-shrink_1280/0/1682434167894?e=1715817600&v=beta&t=leiK-p0cIbjHPE3XaSqROral9D_V6fdjxlBgkUOLeiM",
+      doc: "https://media.licdn.com/dms/image/D4D2DAQG5gMtMvDlEfw/profile-treasury-image-shrink_800_800/0/1685898008182?e=1720285200&v=beta&t=r9kKHHN9mMPJrrFdLSgRuEm5thn4zYoIDlbeEaCUkV0",
     },
     {
       id: 1,
@@ -187,7 +186,7 @@ export const Bio = {
     
     {
       id: 2,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+      img: "https://ugc.production.linktr.ee/QPPkqdeZRZWUCBW8PPPU_2M1IVW45o9nDfUmr",
       role: "Campus Ambassador",
       company: "Zuno by foundit",
       date: "Feb 2023 - Dec 2023",
@@ -202,7 +201,7 @@ export const Bio = {
         "Organizational Skills",
         "Social Media Presence",
       ],
-      doc: "https://media.licdn.com/dms/image/D562DAQEaDx668UNmOQ/profile-treasury-image-shrink_800_800/0/1705294547628?e=1713812400&v=beta&t=1pOj9BKCEbhnsXBqJgmu6A9odK1EsmhS0aLmx39sYhU",
+      doc: "https://media.licdn.com/dms/image/D562DAQEaDx668UNmOQ/profile-treasury-image-shrink_800_800/0/1705294547628?e=1720288800&v=beta&t=ADY2n6WKUzbuOt5QsEDfrZE1-XQ1HfiIAIZZ-wvD4uE",
     },
     {
       id: 3,
@@ -221,7 +220,7 @@ export const Bio = {
         "Organizational Skills",
         "Social Media Presence",
       ],
-      doc: "https://media.licdn.com/dms/image/C4D22AQHS-bdvntqKFQ/feedshare-shrink_800/0/1658501682869?e=1715817600&v=beta&t=25KI5I9RFv3RBEwsttL415NXIeE8--FvtFcQpIHbyG8",
+      doc: "https://media.licdn.com/dms/image/D562DAQFn4a7AQ3zfGw/profile-treasury-image-shrink_800_800/0/1719680759971?e=1720288800&v=beta&t=sFwFf88t1wTC1r6qNur_rECzvhRjBbZHS9T3XJMF-nI",
     },
   ];
   
