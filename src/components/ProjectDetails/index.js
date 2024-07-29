@@ -191,7 +191,7 @@ const index = ({ openModal, setOpenModal }) => {
                 <Wrapper>
                     <CloseRounded
                         style={{
-                            position: "absolute",
+                            position: "relative",
                             top: "10px",
                             right: "20px",
                             cursor: "pointer",
